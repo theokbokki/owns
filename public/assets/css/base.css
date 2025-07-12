@@ -1,3 +1,7 @@
+:root {
+    scroll-behavior: smooth;
+}
+
 .app {
     max-width: 24.375rem; /* 390px */
     margin: 0 auto;
