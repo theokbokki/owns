@@ -1,0 +1,25 @@
+.app {
+    width: 24.375rem; /* 390px */
+    margin: 0 auto;
+    padding: 7.5rem 0 5rem; /* 120px 0 80px */
+    font-family: var(--sans);
+    font-size: 0.875rem; /* 14px */
+    font-weight: 350;
+    line-height: 160%;
+}
+
+.app__title {
+    color: var(--stone-700);
+    font-weight: 600;
+}
+
+.app__description {
+    margin-top: 2.5rem; /* 40px */
+    color: var(--stone-500);
+}
+
+.app__items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.5rem; /* 120px */
+}

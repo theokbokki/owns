@@ -27,7 +27,7 @@ $items = [
 
         <title>Owns</title>
 
-        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/assets/css/app.css">
     </head>
     <body class="app">
         <h1 class="app__title">Owns</h1>
