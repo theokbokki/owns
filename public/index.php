@@ -87,5 +87,6 @@ $items = [
                 <?= $item->render() ?>
             <?php endforeach ?>
         </div>
+        <a href="#" class="app__button">Back to top</a>
     </body>
 </html>
