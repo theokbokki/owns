@@ -20,7 +20,9 @@ class Item implements Component
         return <<<HTML
             <article class="item">
                 <h2 class="item__title">{$this->title}</h2>
-                <img class="item__img" src="/assets/img/{$this->img}" alt="{$this->alt}">
+                <figure class="item__fig">
+                    <img class="item__img" src="/assets/img/{$this->img}" alt="{$this->alt}">
+                </figure>
             </article>
         HTML;
     }

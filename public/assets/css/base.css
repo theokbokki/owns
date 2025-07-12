@@ -1,11 +1,12 @@
 .app {
-    width: 24.375rem; /* 390px */
+    max-width: 24.375rem; /* 390px */
     margin: 0 auto;
-    padding: 7.5rem 0 5rem; /* 120px 0 80px */
+    padding: 7.5rem 1rem 5rem; /* 120px 16px 80px */
     font-family: var(--sans);
     font-size: 0.875rem; /* 14px */
     font-weight: 350;
     line-height: 160%;
+    hyphens: auto;
 }
 
 .app__title {
@@ -21,5 +22,6 @@
 .app__items {
     display: flex;
     flex-direction: column;
+    gap: 2.5rem; /* 40px */
     margin-top: 7.5rem; /* 120px */
 }

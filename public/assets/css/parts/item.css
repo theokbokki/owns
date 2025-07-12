@@ -1,0 +1,22 @@
+.item {
+    position: relative;
+    width: 100%;
+}
+
+.item__title {
+    position: absolute;
+    bottom: 1rem; /* 16px */
+    font-size: .75rem; /* 12px */
+    width: 100%;
+    text-align: center;
+    color: var(--stone-500);
+}
+
+.item__fig {
+    background: var(--stone-100);
+    border-radius: 0.25rem; /* 4px */
+}
+
+.item__img {
+    width: 100%;
+}
