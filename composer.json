@@ -1,0 +1,19 @@
+{
+    "name": "theokbokki/owns",
+    "description": "The place where I put pictures of stuff that I own and that I like. It's a bit like a digital inventory for my real life self.",
+    "type": "website",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Theokbokki\\Owns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "théoo",
+            "email": "90846584+theokbokki@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
