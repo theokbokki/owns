@@ -13,7 +13,9 @@ class Item implements Component
         public string $title,
         public string $img,
         public string $alt,
-    ) {}
+    ) {
+        $this->img = asset('img/'.$img);
+    }
 
     public function render(): string
     {
@@ -21,7 +23,7 @@ class Item implements Component
             <article class="item">
                 <h2 class="item__title">{$this->title}</h2>
                 <figure class="item__fig">
-                    <img class="item__img" src="/assets/img/{$this->img}" alt="{$this->alt}">
+                    <img class="item__img" src="{$this->img}" alt="{$this->alt}">
                 </figure>
             </article>
         HTML;

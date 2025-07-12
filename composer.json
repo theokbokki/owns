@@ -4,6 +4,9 @@
     "type": "website",
     "license": "MIT",
     "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
         "psr-4": {
             "Theokbokki\\Owns\\": "src/"
         }
