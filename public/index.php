@@ -65,6 +65,11 @@ $items = [
         'la-vie-secrete-des-arbres.webp',
         'The cover of the book &quot;La vie Secrète des Arbres&quot; by Peter Wohlleben. The background image is a fores. The name of the author is written in yellow above the title in white. At the bottom is a book banner with some text promoting the book and the amount of readers it got.'
     ),
+    Item::make(
+        'Red Hario v60 kit', 
+        'red-v60.webp',
+        'A red ceramic Hario V60 coffee dripper on top of it\'s glass carafe. There are also some filters laying down with a measuring spoon placed on top of them. In the back is the cardboard box in which it all comes.'
+    ),
 ];
 
 ?>
