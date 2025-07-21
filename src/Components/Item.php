@@ -14,7 +14,7 @@ class Item implements Component
         public string $img,
         public string $alt,
     ) {
-        $this->img = asset('img/'.$img);
+        $this->img = asset($img);
     }
 
     public function render(): string

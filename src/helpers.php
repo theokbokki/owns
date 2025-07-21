@@ -1,9 +1,17 @@
 <?php
 
-function asset(string $path): string
+function asset(string $name): string
 {
-    $fullPath = 'assets/'.$path;
-    $time = filemtime($fullPath);
+    static $manifest = null;
 
-    return '/'.$fullPath.'?v='.$time;
+    if ($manifest === null) {
+        $content = file_get_contents(__DIR__.'/../public/manifest.json');
+        $manifest = json_decode($content, true);
+    }
+
+    if (isset($manifest[$name])) {
+        return '/'.$manifest[$name];
+    }
+
+    return '/assets/'.$name;
 }
